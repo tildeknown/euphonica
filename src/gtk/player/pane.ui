@@ -306,6 +306,7 @@
                 </child>
                 <child>
                   <object class="GtkBox">
+                    <property name="visible">false</property>
                     <property name="halign">center</property>
                     <property name="spacing">6</property>
                     <child>
@@ -335,6 +336,7 @@
                 </child>
                 <child>
                   <object class="GtkScrolledWindow" id="lyrics_window">
+                    <property name="visible">false</property>
                     <style>
                       <class name="lyrics-box"/>
                     </style>
@@ -368,6 +370,7 @@
                 </child>
                 <child>
                   <object class="GtkBox">
+                    <property name="visible">false</property>
                     <property name="spacing">6</property>
                     <property name="halign">center</property>
                     <child>
